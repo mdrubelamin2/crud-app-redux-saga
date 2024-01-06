@@ -1,0 +1,1 @@
+export const removeItemFromArray = (items, index) => [...items.slice(0, index), ...items.slice(index + 1)]
